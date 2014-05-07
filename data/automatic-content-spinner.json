@@ -1,0 +1,40 @@
+{
+	"name" : "Content Spinner",
+	"path" : "automatic-content-spinner/content-spinner.php",
+	"options" : [
+		{
+			"name" : "cs_options",
+			"settings" : [
+				{
+					"id" : "spinmethod",
+					"values" : ["domainpage", "every second", "every minute", "hourly", "daily", "weekly", "monthly", "annually", "false"]
+				},
+				{
+					"id" : "spinpost",
+					"values" : ["post","page","both"]
+				},
+				{
+					"id": "opening_construct",
+					"values" : ["{", "{{", "["]
+				},
+				{
+					"id" : "closing_construct",
+					"values" : ["}", "}}", "]"]
+				},
+				{
+					"id" : "separator",
+					"values" : ["|", "||", "_", "__", "-"]
+				},
+				{
+					"id" : "spinoption",
+					"values" : ["flat","nested","detect"]
+				},
+				{
+					"id": "spin_titles",
+					"values" : [0, 1]
+				}
+			]
+
+		}
+	]
+}

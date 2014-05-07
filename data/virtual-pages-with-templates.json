@@ -1,0 +1,32 @@
+{
+	"name" : "Virtual Pages with Templates",
+	"path" : "virtual-pages-with-templates/virtualpages-with-templates.php",
+	"options" : [
+		{
+			"name" : "vpt_options",
+			"settings" : [
+				{
+					"id" : "use_custom_permalink_structure",
+					"values" : [0, 1]
+				},
+				{
+					"id" : "page_template",
+					"values" : [1]
+				},
+				{
+					"id": "affect_search",
+					"values" : [0, 1]
+				},
+				{
+					"id" : "hide_post_id",
+					"values" : [0, 1]
+				},
+				{
+					"id" : "virtualpageurl",
+					"values" : ["/shop/%postname%", "/item/%postname%"]
+				}
+			]
+
+		}
+	]
+}
